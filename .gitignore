@@ -1,0 +1,14 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/MiniJump/bin/Debug/net472/Releases/MiniJump-0.0.1.zip
+/MiniJump/bin/Debug/net472/MiniJump.dll
+/MiniJump/obj/Debug/net472/MiniJump.AssemblyInfo.cs
+/MiniJump/obj/Debug/net472/MiniJump.AssemblyInfoInputs.cache
+/MiniJump/obj/Debug/net472/MiniJump.csproj.AssemblyReference.cache
+/MiniJump/obj/Debug/net472/MiniJump.dll
+/MiniJump/obj/Debug/net472/MiniJump.sourcelink.json
+/MiniJump/obj/Release/net472/MiniJump.AssemblyInfo.cs
+/MiniJump/obj/Release/net472/MiniJump.AssemblyInfoInputs.cache

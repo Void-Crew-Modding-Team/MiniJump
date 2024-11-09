@@ -1,0 +1,10 @@
+﻿{
+    "name":  "Mini_Jump",
+    "version_number":  "0.0.1",
+    "description":  "Allows the ship to make a short range jump within a system. Host and Pilot. Disables Progression.",
+    "website_url":  "https://github.com/Void-Crew-Modding-Team/MiniJump",
+    "dependencies":  [
+                         "BepInEx-BepInExPack-5.4.2100",
+                         "VoidCrewModdingTeam-VoidManager-1.2.2"
+                     ]
+}

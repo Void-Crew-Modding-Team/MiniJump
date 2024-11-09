@@ -21,28 +21,6 @@ namespace MiniJump
 
         internal static DateTime lastJumpTime = DateTime.MinValue;
 
-        //Copied directly from VoidManager 1.1.8
-        //TODO Use Tools.InVoid
-        private static bool InVoid
-        {
-            get
-            {
-                VoidJumpSystem voidJumpSystem = ClientGame.Current?.PlayerShip?.GameObject?.GetComponent<VoidJumpSystem>();
-                if (voidJumpSystem == null)
-                {
-                    return false;
-                }
-
-                VoidJumpState activeState = voidJumpSystem.ActiveState;
-                if (activeState is VoidJumpTravellingStable || activeState is VoidJumpTravellingUnstable || activeState is VoidJumpInterdiction || activeState is VoidJumpApproachingDestination || activeState is VoidJumpSpinningDown)
-                {
-                    return true;
-                }
-
-                return false;
-            }
-        }
-
         internal static int CooldownRemaining()
         {
             int remaining = (int)(lastJumpTime.AddSeconds(Configs.jumpCooldownSeconds) - DateTime.Now).TotalSeconds;
@@ -56,8 +34,7 @@ namespace MiniJump
 
         internal static void CheckDoJump(object sender, EventArgs e)
         {
-            //TODO Use Tools.InVoid
-            if (!Tools.PlayerShipExists || InVoid ||
+            if (!Game.PlayerShipExists || Game.InVoid ||
             ServiceBase<InputService>.Instance?.CursorVisibilityControl?.IsCursorShown != false) return;
 
             if (Configs.miniJumpKeybind.Value != KeyCode.None && UnityInput.Current.GetKeyDown(Configs.miniJumpKeybind.Value))

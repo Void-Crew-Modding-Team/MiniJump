@@ -1,0 +1,8 @@
+D:\repos\Void Crew\MiniJump\MiniJump\obj\Debug\net472\MiniJump.csproj.AssemblyReference.cache
+D:\repos\Void Crew\MiniJump\MiniJump\obj\Debug\net472\MiniJump.GeneratedMSBuildEditorConfig.editorconfig
+D:\repos\Void Crew\MiniJump\MiniJump\obj\Debug\net472\MiniJump.AssemblyInfoInputs.cache
+D:\repos\Void Crew\MiniJump\MiniJump\obj\Debug\net472\MiniJump.AssemblyInfo.cs
+D:\repos\Void Crew\MiniJump\MiniJump\obj\Debug\net472\MiniJump.csproj.CoreCompileInputs.cache
+D:\repos\Void Crew\MiniJump\MiniJump\obj\Debug\net472\MiniJump.sourcelink.json
+D:\repos\Void Crew\MiniJump\MiniJump\bin\Debug\net472\MiniJump.dll
+D:\repos\Void Crew\MiniJump\MiniJump\obj\Debug\net472\MiniJump.dll
